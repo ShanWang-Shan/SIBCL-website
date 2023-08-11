@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="SIBCL: Satellite Image Based Cross-view Localization for Autonomous Vehicle">
+  <meta name="keywords" content="PureACL">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="SIBCL: Satellite Image Based Cross-view Localization for Autonomous Vehicle" />
+  <meta property="og:description" content="SIBCL: Satellite Image Based Cross-view Localization for Autonomous Vehicle" />
+  <meta property="og:image" content="https://ShanWang-Shan.github.io/megane/static/images/teaser.jpg" />
+  <title>SIBCL: Satellite Image Based Cross-view Localization for Autonomous Vehicle</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T834G2HR2M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T834G2HR2M');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">SIBCL: Satellite Image Based Cross-view Localization for Autonomous Vehicle</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https:/ShanWang-Shan.github.io">Shan Wang</a>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=9W32tDUAAAAJ&hl=en">Yanhao Zhang</a>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=EUS0qnEAAAAJ&hl=en">Ankit Vora</a>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=wPNd0xkAAAAJ&hl=en">Akhil Perincherry</a>,</span>
+            <span class="author-block">
+              <a href="http://users.cecs.anu.edu.au/~hongdong/">Hongdong Li</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Australian National University,</span>
+            <span class="author-block">CSIRO, </span>
+            <span class="author-block">Ford Motor Company</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">ICRA 2023</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2207.13506"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/ShanWang-Shan/SIBCL-website"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="visualization" autoplay muted loop playsinline height="100%">
+        <source src="./static/images/SIBCL.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">SIBCL</span> Mothed Introduction.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method Overview</h2>
+        <div class="content has-text-justified">
+        <p>
+	Overview of SIBCL. GaFE extracts feature and attention maps from the ground and satellite views. Further, we obtain sparse pixel-level features and weights across the 3D points. The pose-aware features extraction is supervised in PAB by a triplet loss. In RPRB, the deep features are used to iteratively optimize the camera pose using the LM algorithm.
+        </p>
+        </div>
+        <div class="publication-video">
+          <img src="./static/images/SIBCL.png" alt="Teaser" style="width:100%;">
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+	Existing spatial localization techniques for autonomous vehicles mostly use a pre-built 3D-HD map, often constructed using a survey-grade 3D mapping vehicle, which is not only expensive but also laborious.  This paper shows that by using an off-the-shelf high-definition satellite image as a ready-to-use map, we are able to achieve cross-view vehicle localization up to a satisfactory accuracy, providing a cheaper and more practical way for localization. While the utilization of satellite imagery for cross-view localization is an established concept, the conventional methodology focuses primarily on image retrieval. This paper introduces a novel approach to cross-view localization that departs from the conventional image retrieval method. Specifically, our method develops (1) a Geometric-align Feature Extractor (GaFE) that leverages measured 3D points to bridge the geometric gap between ground and overhead views, (2) a Pose Aware Branch (PAB) adopting a triplet loss to encourage pose-aware feature extraction, and (3) a Recursive Pose Refine Branch (RPRB) using the Levenberg-Marquardt (LM) algorithm to align the initial pose towards the true vehicle pose iteratively. Our method is validated on KITTI and Ford Multi-AV Seasonal datasets as ground view and Google Maps as the satellite view. The results demonstrate the superiority of our method in cross-view localization with median spatial and angular errors within 1 meter and 1 degree, respectively.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Comparison</h2>
+        <div class="content has-text-justified">
+        </div>
+        <div class="publication-video">
+          <img src="./static/images/comparison.png" alt="Teaser" style="width:100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{wang2023satellite,
+  title={Satellite image based cross-view localization for autonomous vehicle},
+  author={Wang, Shan and Zhang, Yanhao and Vora, Ankit and Perincherry, Akhil and Li, Hengdong},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={3592--3599},
+  year={2023},
+  organization={IEEE}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/abs/2207.13506">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <!-- <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p> -->
+          <p>
+            This website borrows the template from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
