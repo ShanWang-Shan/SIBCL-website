@@ -1,4 +1,4 @@
-# PureACL website
-  PureACL Website: View Consistent Purification for Accurate Cross-View Localization (ICCV 2023)
+# SIBCL website
+  SIBCL Website: Satellite Image Based Cross-view Localization for Autonomous Vehicle (ICRA 2023)
  
-[Webpage](https://ShanWang-Shan.github.io/PureACL-website/)
+[Webpage](https://shanwang-shan.github.io/SIBCL-website/)
